@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0a434ad6b1b5e9241832c755bdcbd508
+guid: f54e20ea899e87a4291092121ea9ea02
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4422421687308575058
-    second: Bomb O'Clat_0
+      213: -6159347368649644629
+    second: Bomb O'Clat Side1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bomb O'Clat_0
+      name: Bomb O'Clat Side1_0
       rect:
         serializedVersion: 2
-        x: 500
-        y: 83
-        width: 1000
-        height: 1867
+        x: 531
+        y: 92
+        width: 1243
+        height: 1826
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 251e207f7199f5d30800000000000000
-      internalID: 4422421687308575058
+      spriteID: ba5a66ba33a958aa0800000000000000
+      internalID: -6159347368649644629
       vertices: []
       indices: 
       edges: []
