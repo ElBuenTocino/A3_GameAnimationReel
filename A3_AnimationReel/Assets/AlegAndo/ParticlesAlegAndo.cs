@@ -3,6 +3,15 @@ using UnityEngine;
 public class ParticlesAlegAndo : MonoBehaviour
 {
     public ParticleSystem frontFootParticle, backFootParticle;
+    public ParticleSystem frontHitParticle;
+
+    private void Start()
+    {
+        if (GetComponent<Animator>().runtimeAnimatorController != null)
+        {
+            GetComponent<Animator>().runtimeAnimatorController = null;
+        }
+    }
 
     void RunningParticleEvent(string feet)
     {
@@ -14,5 +23,10 @@ public class ParticlesAlegAndo : MonoBehaviour
         {
             backFootParticle.Play();
         }
+    }
+
+    void HitParticle()
+    {
+        frontHitParticle.Play();
     }
 }
